@@ -7,6 +7,7 @@ mongoose.connect('mongodb+srv://dexter:VImZnd374SLTopwe@cluster0.q7sua.mongodb.n
 const AdminSchema = new mongoose.Schema({
     username:String,
     password:String
+    //checking here first
 });
 
 const UserSchema = new mongoose.Schema({

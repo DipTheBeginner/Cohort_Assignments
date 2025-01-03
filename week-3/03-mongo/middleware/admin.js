@@ -8,6 +8,7 @@ function adminMiddleware(req, res, next) {
     Admin.findOne({
         username:username,
         password:password
+        // second change making here
     })
     .then(function(value){
         if(value){
