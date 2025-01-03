@@ -5,7 +5,6 @@ mongoose.connect('mongodb+srv://dexter:VImZnd374SLTopwe@cluster0.q7sua.mongodb.n
 
 // Define schemas
 const AdminSchema = new mongoose.Schema({
-    // Schema definition here
     username:String,
     password:String
 });
